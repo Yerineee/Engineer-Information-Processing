@@ -48,8 +48,9 @@ WHERE 학점 = 'A';
 SELECT COUNT(DISTINCT 과목)
 FROM 성적;
 ```
+<br />
 
-### 6. 성적 테이블에서 과목, 학점 두 컬럼이 모두 같은 값이면 중복 제거
+#### 6. 성적 테이블에서 과목, 학점 두 컬럼이 모두 같은 값이면 중복 제거
 
 ```sql
 SELECT DISTINCT 과목, 학점
